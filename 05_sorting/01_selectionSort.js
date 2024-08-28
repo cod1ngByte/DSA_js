@@ -34,3 +34,5 @@ console.log(arr);
 //selection sort:
 // --> at max swap - n
 // --> at max comparison - n^2
+// --> inplace - yes
+// --> stable - no
