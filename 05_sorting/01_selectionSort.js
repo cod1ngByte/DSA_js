@@ -30,3 +30,7 @@ function selectionSort(arr) {
 const arr = [6, 5, 4, 3, 2, 1];
 selectionSort(arr);
 console.log(arr);
+
+//selection sort:
+// --> at max swap - n
+// --> at max comparison - n^2
