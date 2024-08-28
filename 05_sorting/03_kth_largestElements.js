@@ -10,10 +10,11 @@ function kthLargestElement(arr, k) {
                }
           }
      }
+     return arr[arr.length - k];
 }
 
 const arr = [4, 1, 16, 3, 2, 9];
 const k = 2;
-kthLargestElement(arr, k);
-console.log(arr);
-console.log(arr[arr.length - k]);
+console.log(kthLargestElement(arr, k));
+// console.log(arr);
+// console.log(arr[arr.length - k]);
