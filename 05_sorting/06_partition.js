@@ -4,6 +4,8 @@ function swap(arr, i, j) {
      arr[j] = temp;
 }
 
+//TC --> O(n)
+//sc --> O(1)
 function partition(arr, pivotIndex) {
      let pivotElem = arr[pivotIndex];
      let l = 0;
